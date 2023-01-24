@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.row {
+    color: black;
+    display: flex;
+    flex: 1;
+    border: solid, 1px, black;
+}
+
+.cell {
+    display: flex;
+    flex: 1;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-height: 80%;
+    max-width: 80%;
+}
